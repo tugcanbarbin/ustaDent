@@ -25,7 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/theme.css",
+              "src/assets/vendor/animate/animate.css",
+              "src/assets/vendor/owl-carousel/css/owl.carousel.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/maicons.css"
             ],
             "scripts": []
           },
@@ -94,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3dde4b51-96c7-4984-80ba-da0dd3073d36"
   }
 }
