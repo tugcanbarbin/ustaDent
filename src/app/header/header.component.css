@@ -1,0 +1,13 @@
+.upper-header {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.lower-header {
+    position: relative;
+    top: 0;
+    z-index: 100;
+    /* top: initial; */
+    background:bisque
+    
+}

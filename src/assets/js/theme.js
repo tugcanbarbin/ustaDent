@@ -64,3 +64,24 @@ $('document').ready(function() {
   new WOW().init();
 });
 
+
+$('document').ready(function () {
+  $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll > 50) { // Adjust the scroll threshold as needed
+          $(".upper-header").css("transform", "translateY(-100%)");
+          $(".lower-header").css("top", "1000");
+          $(".lower-header").css("position", "fixed");
+          $(".lower-header").css("right", "0");
+          $(".lower-header").css("left", "0");
+          $(".lower-header").css("z-index", "1030");
+      } else {
+          $(".upper-header").css("transform", "translateY(0)");
+          $(".lower-header").css("top", "0px");// Adjust this value to match the height of the upper section
+          $(".lower-header").css("top", "1000");
+          $(".lower-header").css("position", "relative");
+          $(".lower-header").css("z-index", "0");
+      }
+  });
+});
