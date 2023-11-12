@@ -1,6 +1,8 @@
 .upper-header {
     position: relative;
     transition: transform 0.3s ease;
+    
+    background:#f5f7f8
 }
 
 .lower-header {
@@ -8,6 +10,6 @@
     top: 0;
     z-index: 100;
     /* top: initial; */
-    background:#00C4FF
+    background:#f5f7f8
     
 }
