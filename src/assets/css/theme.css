@@ -264,7 +264,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Buttons */
 .btn-primary {
   color: #fff;
-  background-color: #00C4FF;
+  background-color: #5697cb;
   border-color: transparent;
 }
 
@@ -935,7 +935,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 500;
-  color: #007bff ;
+  color: #5697cb ;
 }
 
 
@@ -1819,7 +1819,7 @@ a.text-dark:hover, a.text-dark:focus {
 .owl-carousel .owl-nav button.owl-prev {
   display: inline-block;
   padding: 6px 0 !important;
-  background-color: #30A2FF;
+  background-color: #5697cb;
   color: #fff;
 }
 
